@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 17  # Order that this section will appear.
 
-title = "Nouveautés"
+title = "Nouveauté"
 
 [[item]]
  youtube_video_id = "rrrNt1bu3ag"

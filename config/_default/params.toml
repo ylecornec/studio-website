@@ -104,7 +104,7 @@ coordinates = {latitude = "47.79972", longitude = "-3.72107"}
 office_hours = ["Du Lundi au Vendredi 9:00-12:00 // 14:00-18:00"]
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = "https://calendly.com"
+#appointment_url = "https://calendar.google.com/calendar/u/1/r?pli=1"
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.

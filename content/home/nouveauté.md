@@ -5,15 +5,15 @@
 
 widget = "blank"  # See https://wowchemy.com/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 weight = 16  # Order that this section will appear.
 
-title = "Présentation"
+title = "Nouveauté"
 subtitle = ""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
+  columns = "2"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -36,7 +36,7 @@ subtitle = ""
   # image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
   
   # Text color (true=light or false=dark).
-  text_color_light = false
+  text_color_light = true
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
@@ -48,31 +48,6 @@ subtitle = ""
  
  # CSS class.
  css_class = ""
- 
-[[gallery_item]]
-  album = "gallery"
-  image = "https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-dark.png"
-  caption = "caption"
-
-[[gallery_item]]
-  album = "gallery"
-  image = "images/tn.png"
-  caption = "caption"
-
-[[gallery_item]]
-  album = "gallery"
-  image = "images/tn.png"
-  caption = "caption"
-
-[[gallery_item]]
-  album = "gallery"
-  image = "images/tn.png"
-  caption = "caption"
 +++
 
-## Bienvenu au Studiodé, un studio 100% libre.
-
-Chez Studiodé, les programmes utilisés sont open-source ! De l'enregistrement et le mixage audio avec Ardour6, jusqu'à l'édition de clip sur kdenlive.
-Tout nos systèmes sont basés linux et nous pensons que la culture et notamment la musique doit être accessible à tous.
-
-{{<gallery album="gallery">}}
+{{< youtube "rrrNt1bu3ag" >}}

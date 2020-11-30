@@ -9,9 +9,17 @@
   weight = 10
 
 [[main]]
-  name = "Portfolio"
-  url = "#portfolio"
+  name = "Nouveauté"
+  url = "#nouveauté"
   weight = 11
+
+
+[[main]]
+  name = "Portfolio"
+  url = "#porfolio"
+  weight = 11
+
+
 
 [[main]]
   name = "Contact"
