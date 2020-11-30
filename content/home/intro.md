@@ -8,7 +8,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 16  # Order that this section will appear.
 
-title = ""
+title = "Présentation"
 subtitle = ""
 
 [design]
@@ -36,7 +36,7 @@ subtitle = ""
   # image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
   
   # Text color (true=light or false=dark).
-  text_color_light = true
+  text_color_light = false
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
@@ -70,10 +70,8 @@ subtitle = ""
   caption = "caption"
 +++
 
-## 👋 Welcome to the SuperStudio 🎸
+## Bienvenu au Studiodé
 
-Donec consectetur est tellus, ullamcorper vehicula est placerat eu.
-
-Duis et dictum mi, quis iaculis nibh. Cras orci purus, fringilla ultrices mi nec, ullamcorper tristique tortor. Praesent sit amet pulvinar eros, dictum viverra eros. Integer tempus euismod velit, a elementum orci facilisis suscipit. Fusce ut feugiat dui. Integer ultricies odio est, eu viverra tortor rutrum at. 
+Petit studio 100% libre.
 
 {{<gallery album="gallery">}}
