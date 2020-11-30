@@ -13,7 +13,6 @@ title = "Nouveautés"
 [[item]]
  youtube_video_id = "wo_eWMAYXsU"
 
-
 [[item]]
  youtube_video_id = "F_S-RSOrClQ"
 +++
