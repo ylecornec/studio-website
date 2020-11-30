@@ -10,16 +10,8 @@
 
 [[main]]
   name = "Nouveauté"
-  url = "#nouveauté"
+  url = "#slider"
   weight = 11
-
-
-[[main]]
-  name = "Portfolio"
-  url = "#porfolio"
-  weight = 11
-
-
 
 [[main]]
   name = "Contact"
