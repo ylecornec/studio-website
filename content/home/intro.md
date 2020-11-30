@@ -61,7 +61,7 @@ subtitle = ""
 
 [[gallery_item]]
   album = "gallery"
-  image = "images/tn.png"
+  image = "images/20201130_0006_01.webp"
   caption = "caption"
 
 [[gallery_item]]
