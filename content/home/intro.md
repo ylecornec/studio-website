@@ -8,8 +8,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 16  # Order that this section will appear.
 
-title = "Présentation"
-subtitle = ""
+title = "## Bienvenu au Studiodé"
+subtitle = "### Un studio 100% Libre"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -69,8 +69,6 @@ subtitle = ""
   image = "images/tn.png"
   caption = "caption"
 +++
-
-## Bienvenu au Studiodé, un studio 100% libre.
 
 Chez Studiodé, les programmes utilisés sont open-source ! De l'enregistrement et le mixage audio avec Ardour6, jusqu'à l'édition de clip sur kdenlive.
 Tout nos systèmes sont basés linux et nous pensons que la culture et notamment la musique doit être accessible à tous.

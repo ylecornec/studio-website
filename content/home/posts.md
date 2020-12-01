@@ -4,10 +4,10 @@
 
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
-title = "Recent Posts"
+title = "Tarifs"
 subtitle = ""
 
 [content]
@@ -37,7 +37,7 @@ subtitle = ""
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 2
+  view = 1
   
 [design.background]
   # Apply a background color, gradient, or image.
@@ -48,9 +48,9 @@ subtitle = ""
   # Background color.
   # color = "navy"
   
-  # Background gradient.
-  # gradient_start = "DeepSkyBlue"
-  # gradient_end = "SkyBlue"
+  #Background gradient.
+  gradient_start = "DeepSkyBlue"
+  gradient_end = "SkyBlue"
   
   # Background image.
   # image = "background.jpg"  # Name of image in `static/media/`.
@@ -66,3 +66,28 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+
+Pour une chanson :
+
+     Enregistrement (session de 2h30): 50 euros 
+
+     Mixage: 15 euros par nombre de pistes.
+
+     Enregistrement (2h30) et Mixage: 50 euros + 10 euros par nombre de pistes
+
+Pour plusieurs chansons:
+
+     Me contacter pour un devis.
+
+Enregistrement Video:
+
+     Une session (journée): 150 euros
+     Location materiel (journée): 75 euros + Chèque de caution.
+     
+Edition Video:
+
+     Me contacter pour un devis.
+
+Enregistrement Video (journée) + Edition:
+
+     300 euros
