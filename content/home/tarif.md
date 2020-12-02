@@ -9,7 +9,7 @@ weight = 60  # Order that this section will appear.
 
 title = "Tarifs"
 subtitle = ""
-type= "widget_page"
+#type= "widget_page"
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "2"
@@ -24,8 +24,8 @@ type= "widget_page"
   #color = "navy"
   
   #Background gradient.
-  gradient_start = "DeepSkyBlue"
-  gradient_end = "SkyBlue"
+  #gradient_start = "DeepSkyBlue"
+  #gradient_end = "SkyBlue"
   
   # Background image.
   # image = "headers/bubbles-wide.jpg"  # Name of image in `static/img/`.
@@ -35,18 +35,18 @@ type= "widget_page"
   # image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
 
   # Text color (true=light or false=dark).
-  text_color_light = false
+  #text_color_light = false
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["20px", "0", "20px", "0"]
+   padding = ["20px", "0", "20px", "0"]
 
 [advanced]
  # Custom CSS. 
- css_style = ""
+ #css_style = ""
  
  # CSS class.
- css_class = ""
+ #css_class = ""
 +++
 
 Pour une chanson :
@@ -57,7 +57,7 @@ Pour une chanson :
 
      Enregistrement (2h30) et Mixage: 50 euros + 10 euros par nombre de pistes
 
-Pour plusieurs chansons:
+Pour plusieurs
 
      Me contacter pour un devis.
 
