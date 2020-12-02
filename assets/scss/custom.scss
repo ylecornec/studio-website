@@ -240,3 +240,14 @@
 }
 /*#region MODULES */
 /*#endregion */
+
+pre,
+code {
+  color: initial;
+}
+
+.dark pre,
+.dark code {
+  color: #eeeeee;
+}
+
