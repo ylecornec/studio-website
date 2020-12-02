@@ -51,11 +51,6 @@ subtitle = "### Un studio 100% Libre"
  
 [[gallery_item]]
   album = "gallery"
-  image = "https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-dark.png"
-  caption = "caption"
-
-[[gallery_item]]
-  album = "gallery"
   image = "images/tn.png"
   caption = "caption"
 

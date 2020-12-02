@@ -252,3 +252,24 @@ code {
   color: #eeeeee;
 }
 
+$image-ratio: 10/16;
+$smallest-screen-width: 360px;
+$gallery-height: calc(30vw * #{$image-ratio});
+$gallery-min-height: $smallest-screen-width * 10/16;
+$gallery-max-height: 400px;
+
+.gallery a[data-fancybox] img {
+	height: $gallery-height;
+	min-height: $gallery-min-height;
+	max-height: $gallery-max-height;
+}
+
+.gallery {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	overflow: hidden;
+	height: $gallery-height;
+	min-height: $gallery-min-height;
+	max-height: $gallery-max-height;
+}
