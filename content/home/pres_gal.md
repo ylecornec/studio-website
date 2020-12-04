@@ -59,5 +59,41 @@ weight = 17  # Order that this section will appear.
   image = "images/tn.png"
   caption = "caption"
 +++
-
-{{<gallery album="gallery">}}
+<div class="container-fluid">
+    <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="9000">
+        <div class="carousel-inner row w-10 mxauto" role="listbox">
+            <div class="carousel-item col-md-4 active">
+                <img class="img-fluid mx-auto d-bloc" src="media/images/20201130_0006_01.webp" alt="slide 1">
+            </div>
+            <div class="carousel-item col-md-4">
+                <img class="img-fluid mx-auto d-block" src="media/images/20201130_0006_01.webp" alt="slide 2">
+            </div>
+            <div class="carousel-item col-md-4">
+                <img class="img-fluid mx-auto d-block" src="media/images/tn.png" alt="slide 3">
+            </div>
+            <div class="carousel-item col-md-4">
+                <img class="img-fluid mx-auto d-block" src="media/images/20201130_0006_01.webp" alt="slide 4">
+            </div>
+            <div class="carousel-item col-md-4">
+                <img class="img-fluid mx-auto d-block" src="media/images/20201130_0006_01.webp" alt="slide 5">
+            </div>
+            <div class="carousel-item col-md-4">
+                <img class="img-fluid mx-auto d-block" src="media/images/20201130_0006_01.webp" alt="slide 6">
+            </div>
+            <div class="carousel-item col-md-4">
+                <img class="img-fluid mx-auto d-block" src="media/images/20201130_0006_01.webp" alt="slide 7">
+            </div>
+            <div class="carousel-item col-md-4">
+                <img class="img-fluid mx-auto d-block" src="media/images/20201130_0006_01.webp" alt="slide 7">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+            <i class="fa fa-chevron-left fa-lg text-muted"></i>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
+            <i class="fa fa-chevron-right fa-lg text-muted"></i>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>

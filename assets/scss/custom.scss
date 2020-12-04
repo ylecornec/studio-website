@@ -1,8 +1,8 @@
 .csslider {
-  -moz-perspective: 1300px;
-  -ms-perspective: 1300px;
-  -webkit-perspective: 1300px;
-  perspective: 1300px;
+  // -moz-perspective: 1300px;
+  // -ms-perspective: 1300px;
+  // -webkit-perspective: 1300px;
+  // perspective: 1300px;
   display: inline-block;
   text-align: left;
   position: relative;
@@ -113,8 +113,8 @@
   display: inline-block;
   cursor: pointer;
   border-radius: 50%;
-  margin: 0 4px;
-  padding: 4px;
+  margin: 0 6px;
+  padding: 6px;
   background: #3a3a3a;
 }
 .csslider > .navigation label:hover:after {
@@ -139,6 +139,11 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+@media (max-width: 700px) {
+	.csslider > .arrows {
+		display: none;
+	}
 }
 .csslider.inside .navigation {
   bottom: 10px;
@@ -238,12 +243,12 @@
   -webkit-transform: rotate(225deg);
   transform: rotate(225deg);
 }
-/*#region MODULES */
-/*#endregion */
 
+// fix color of code block
 pre,
 code {
   color: initial;
+  // background-color: initial;
   background-color: #cccccc;
 }
 
@@ -252,24 +257,100 @@ code {
   color: #eeeeee;
 }
 
-$image-ratio: 10/16;
-$smallest-screen-width: 360px;
-$gallery-height: calc(30vw * #{$image-ratio});
-$gallery-min-height: $smallest-screen-width * 10/16;
-$gallery-max-height: 400px;
+// fix to wowchemy defauld gallery
 
-.gallery a[data-fancybox] img {
-	height: $gallery-height;
-	min-height: $gallery-min-height;
-	max-height: $gallery-max-height;
+// $image-ratio: 10/16;
+// $smallest-screen-width: 320px;
+// $gallery-height: calc(30vw * #{$image-ratio});
+// $gallery-min-height: $smallest-screen-width * 10/16;
+// $gallery-max-height: 400px;
+
+// .gallery a[data-fancybox] img {
+// 	// width: 25vw;
+// 	// min-width: $smallest-screen-width - 30px;
+
+// 	height: $gallery-height;
+// 	min-height: $gallery-min-height;
+// 	max-height: $gallery-max-height;
+// }
+
+// .gallery {
+// 	display: flex;
+// 	justify-content: center;
+// 	flex-wrap: wrap;
+// 	overflow: hidden;
+// 	height: $gallery-height;
+// 	min-height: $gallery-min-height;
+// 	max-height: $gallery-max-height;
+// }
+
+
+// bootstrap carousel with multiple images
+@media (min-width: 768px) {
+
+    /* show 3 items */
+    .carousel-inner .active,
+    .carousel-inner .active + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item {
+        display: block;
+    }
+
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+        transition: none;
+        margin-right: initial;
+    }
+
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+    }
+
+    .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -33.3333%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* left or forward direction */
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+
+    /* farthest right hidden item must be abso position for animations */
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* right or prev direction */
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+
 }
 
-.gallery {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	overflow: hidden;
-	height: $gallery-height;
-	min-height: $gallery-min-height;
-	max-height: $gallery-max-height;
+.carousel-inner {
+	margin: 0 auto ;
 }
