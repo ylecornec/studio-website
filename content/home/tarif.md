@@ -24,8 +24,8 @@ subtitle = ""
   #color = "navy"
   
   #Background gradient.
-  #gradient_start = "DeepSkyBlue"
-  #gradient_end = "SkyBlue"
+  gradient_start = "DeepSkyBlue"
+  gradient_end = "SkyBlue"
   
   # Background image.
   # image = "headers/bubbles-wide.jpg"  # Name of image in `static/img/`.
@@ -35,7 +35,7 @@ subtitle = ""
   # image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
 
   # Text color (true=light or false=dark).
-  #text_color_light = false
+  text_color_light = false
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
