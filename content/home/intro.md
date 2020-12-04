@@ -22,18 +22,18 @@ subtitle = "### Un studio 100% Libre"
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-  # color = "navy"
+  color = "white"
   
   # Background gradient.
-  gradient_start = "222222"
-  gradient_end = "222222"
+  #gradient_start = "#222222"
+  #gradient_end = "#222222"
   
   # Background image.
   image = "logo.png"  # Name of image in `static/media/`.
-  image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-  #image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
+  image_darken = 0.1  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
   image_position = "center"  # Options include `left`, `center` (default), or `right`.
-  image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
+  image_parallax = false  # Use a fun parallax-like fixed background effect? true/false
   
   # Text color (true=light or false=dark).
   #text_color_light = false
@@ -43,30 +43,13 @@ subtitle = "### Un studio 100% Libre"
   # Customize the section spacing. Order is top, right, bottom, left.
   padding = ["20px", "0", "20px", "0"]
 
-[advanced]
- # Custom CSS. 
- css_style = ""
+# [advanced]
+#  # Custom CSS. 
+#  css_style = ""
  
- # CSS class.
- css_class = ""
- 
-[[gallery_item]]
-  album = "gallery"
-  image = "images/tn.png"
-  caption = "caption"
-
-[[gallery_item]]
-  album = "gallery"
-  image = "images/20201130_0006_01.webp"
-  caption = "caption"
-
-[[gallery_item]]
-  album = "gallery"
-  image = "images/tn.png"
-  caption = "caption"
+#  # CSS class.
+#  css_class = ""
 +++
 
 Chez Studiodé, les programmes utilisés sont open-source ! De l'enregistrement et le mixage audio avec Ardour6, jusqu'à l'édition de clip sur kdenlive.
 Tout nos systèmes sont basés linux et nous pensons que la culture et notamment la musique doit être accessible à tous.
-
-{{<gallery album="gallery">}}
