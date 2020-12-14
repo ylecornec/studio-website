@@ -12,7 +12,7 @@ $('#carouselExample').on('slide.bs.carousel', function (e) {
     var idx = $e.index();
     console.log("IDX :  " + idx);
     
-    var itemsPerSlide = 8;
+    var itemsPerSlide = 3;
     var totalItems = $('.carousel-item').length;
     
     if (idx >= totalItems-(itemsPerSlide-1)) {
