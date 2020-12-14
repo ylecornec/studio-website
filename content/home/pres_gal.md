@@ -63,13 +63,13 @@ weight = 17  # Order that this section will appear.
     <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="9000">
         <div class="carousel-inner row w-10 mxauto" role="listbox">
             <div class="carousel-item col-md-4 active">
-                <img class="img-fluid mx-auto d-bloc" src="media/images/computer.webp" alt="slide 1">
+                <img class="img-fluid mx-auto d-block" src="media/images/gilles.webp" alt="slide 3">
+            </div>
+            <div class="carousel-item col-md-4">
+                <img class="img-fluid mx-auto d-block" src="media/images/computer.webp" alt="slide 1">
             </div>
             <div class="carousel-item col-md-4">
                 <img class="img-fluid mx-auto d-block" src="media/images/piano.webp" alt="slide 2">
-            </div>
-            <div class="carousel-item col-md-4">
-                <img class="img-fluid mx-auto d-block" src="media/images/gilles.webp" alt="slide 3">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
