@@ -46,7 +46,7 @@ weight = 17  # Order that this section will appear.
  
 [[gallery_item]]
   album = "gallery"
-  image = "images/tn.png"
+  image = "images/gilles.webp"
   caption = "caption"
 
 [[gallery_item]]
@@ -69,7 +69,7 @@ weight = 17  # Order that this section will appear.
                 <img class="img-fluid mx-auto d-block" src="media/images/piano.webp" alt="slide 2">
             </div>
             <div class="carousel-item col-md-4">
-                <img class="img-fluid mx-auto d-block" src="media/images/tn.png" alt="slide 3">
+                <img class="img-fluid mx-auto d-block" src="media/images/gilles.webp" alt="slide 3">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
