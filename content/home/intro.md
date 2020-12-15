@@ -8,7 +8,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 16  # Order that this section will appear.
 
-title = "## Bienvenu au Studiodé"
+title = "## Bienvenu au Stud'iodé"
 subtitle = "### Un studio 100% Libre"
 
 [design]
