@@ -282,8 +282,7 @@ $gallery-max-height: 400px;
 	overflow: hidden;
 	height: $gallery-height;
 	min-height: $gallery-min-height;
-	width: 91vw;
-	// max-height: $gallery-max-height;
+	max-height: $gallery-max-height;
 }
 
 // END GALLERY MODIFIER
