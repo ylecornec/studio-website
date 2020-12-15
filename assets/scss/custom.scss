@@ -257,33 +257,36 @@ code {
   color: #eeeeee;
 }
 
+
+// START GALLERY MODIFIER
 // fix to wowchemy defauld gallery
 
-// $image-ratio: 10/16;
-// $smallest-screen-width: 320px;
-// $gallery-height: calc(30vw * #{$image-ratio});
-// $gallery-min-height: $smallest-screen-width * 10/16;
-// $gallery-max-height: 400px;
+$image-ratio: 10/16;
+$smallest-screen-width: 320px;
+$gallery-height: calc(28vw * #{$image-ratio});
+$gallery-min-height: $smallest-screen-width * $image-ratio;
+$gallery-max-height: 400px;
 
-// .gallery a[data-fancybox] img {
-// 	// width: 25vw;
-// 	// min-width: $smallest-screen-width - 30px;
+.gallery a[data-fancybox] img {
+	// width: 25vw;
+	// min-width: $smallest-screen-width - 30px;
+	height: $gallery-height;
+	min-height: $gallery-min-height;
+	max-height: $gallery-max-height;
+}
 
-// 	height: $gallery-height;
-// 	min-height: $gallery-min-height;
-// 	max-height: $gallery-max-height;
-// }
+.gallery {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	overflow: hidden;
+	height: $gallery-height;
+	min-height: $gallery-min-height;
+	width: 91vw;
+	// max-height: $gallery-max-height;
+}
 
-// .gallery {
-// 	display: flex;
-// 	justify-content: center;
-// 	flex-wrap: wrap;
-// 	overflow: hidden;
-// 	height: $gallery-height;
-// 	min-height: $gallery-min-height;
-// 	max-height: $gallery-max-height;
-// }
-
+// END GALLERY MODIFIER
 
 // bootstrap carousel with multiple images
 @media (min-width: 768px) {

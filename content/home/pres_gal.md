@@ -47,38 +47,41 @@ weight = 17  # Order that this section will appear.
 [[gallery_item]]
   album = "gallery"
   image = "images/gilles.webp"
-  caption = "caption"
+  caption = ""
 
 [[gallery_item]]
   album = "gallery"
   image = "images/computer.webp"
-  caption = "caption"
+  caption = ""
 
 [[gallery_item]]
   album = "gallery"
   image = "images/piano.webp"
-  caption = "caption"
+  caption = ""
 +++
-<div class="container-fluid">
-    <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="9000">
-        <div class="carousel-inner row w-10 mxauto" role="listbox">
-            <div class="carousel-item col-md-4 active">
-                <img class="img-fluid mx-auto d-block" src="media/images/gilles.webp" alt="slide 3">
-            </div>
-            <div class="carousel-item col-md-4">
-                <img class="img-fluid mx-auto d-block" src="media/images/computer.webp" alt="slide 1">
-            </div>
-            <div class="carousel-item col-md-4">
-                <img class="img-fluid mx-auto d-block" src="media/images/piano.webp" alt="slide 2">
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
-            <i class="fa fa-chevron-left fa-lg text-muted"></i>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
-            <i class="fa fa-chevron-right fa-lg text-muted"></i>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-</div>
+
+
+{{< gallery >}}
+<!-- <div class="container-fluid"> -->
+<!--     <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="9000"> -->
+<!--         <div class="carousel-inner row w-10 mxauto" role="listbox"> -->
+<!--             <div class="carousel-item col-md-4 active"> -->
+<!--                 <img class="img-fluid mx-auto d-block" src="media/images/gilles.webp" alt="slide 3"> -->
+<!--             </div> -->
+<!--             <div class="carousel-item col-md-4"> -->
+<!--                 <img class="img-fluid mx-auto d-block" src="media/images/computer.webp" alt="slide 1"> -->
+<!--             </div> -->
+<!--             <div class="carousel-item col-md-4"> -->
+<!--                 <img class="img-fluid mx-auto d-block" src="media/images/piano.webp" alt="slide 2"> -->
+<!--             </div> -->
+<!--         </div> -->
+<!--         <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev"> -->
+<!--             <i class="fa fa-chevron-left fa-lg text-muted"></i> -->
+<!--             <span class="sr-only">Previous</span> -->
+<!--         </a> -->
+<!--         <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next"> -->
+<!--             <i class="fa fa-chevron-right fa-lg text-muted"></i> -->
+<!--             <span class="sr-only">Next</span> -->
+<!--         </a> -->
+<!--     </div> -->
+<!-- </div> -->
